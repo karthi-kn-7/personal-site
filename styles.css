@@ -149,6 +149,8 @@ li{
     width: 400px;
     mix-blend-mode:multiply;
     border-radius: 15px;
+    cursor: pointer;
+    z-index: -20;
 }
 /* section 3 */
 .section3{
@@ -321,6 +323,7 @@ background-color:#EEF7FF;
 position: relative;
 top: 38px;
 padding: 5px;
+z-index: 500;
 
 
 }
