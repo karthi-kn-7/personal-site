@@ -150,7 +150,7 @@ li{
     mix-blend-mode:multiply;
     border-radius: 15px;
     cursor: pointer;
-    z-index: -20;
+    z-index: -200;
 }
 /* section 3 */
 .section3{
@@ -324,18 +324,16 @@ position: relative;
 top: 38px;
 padding: 5px;
 z-index: 500;
-
-
 }
 .fob{
     position: fixed;
     width: 100%;
     transition: 0.5s;
 }
+
 .ma{
     visibility: hidden;
 }
-
 @media (max-width:700px) {
     .section1{
         /* background-color: red; */
@@ -349,9 +347,7 @@ z-index: 500;
     .navbtn{
         visibility: visible;
     }
-    .ma{
-        visibility: visible;
-    }
+    .ma{visibility: visible;}
     .tohide{
         display: none;
         visibility: hidden;       
