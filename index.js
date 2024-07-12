@@ -3,14 +3,14 @@ var cyear=new Date().getFullYear();
 document.getElementById("fffpad").textContent="Copyright "+"\xa9 "+cyear+" Karthikeyan S. All Rights Reserved.";
 window.onload = function() {
     // Entire page including all resources is loaded
-    $(".fob").fadeToggle();
+    $(".mdiv").fadeToggle();
 };
 
 $(".navbtn").click(function (e) { 
     // alert("DF");
-    $(".fob").fadeToggle();
+    $(".mdiv").slideToggle();
 });
 
 $(".ma").click((e)=>{
-    $(".fob").fadeToggle();
+    $(".mdiv").slideToggle();
 });
